@@ -1,0 +1,85 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.nav
+{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+    align-content: center;
+}
+
+.nav2
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    color: #FF4E4E;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    width: 88%;
+    left: 22%;
+}
+
+.logo-icon
+{
+    height: 56px;
+    width: 56px;
+}
+
+.brand
+{
+    display: flex;
+}
+
+.name
+{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.moon-icon
+{
+    left: 1833px;
+    top: 66px;
+}
+
+.left-circle
+{
+    background: #FF4E4E;
+    height: 768px;
+    width: 768px;
+    left: -370px;
+    top: -52px;
+    border-radius: 50%;
+    z-index: -100;
+    position: absolute;
+}
+
+.right-circle
+{
+    background: #FF4E4E;
+    height: 919px;
+    width: 919px;
+    left: 1409px;
+    top: -560px;
+    border-radius: 50%;
+    z-index: -100;
+    position: absolute;
+}
+
